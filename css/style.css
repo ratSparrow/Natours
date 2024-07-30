@@ -61,10 +61,41 @@ body{
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
+  animation-name: moveIntoRight;
+  animation-duration: 3s;
 }
 .heading-primary-sub{
   display: block;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 17.3px;
+  animation-name: moveIntoLeft;
+  animation-duration: 3s;
+}
+
+@keyframes moveIntoRight {
+  0%{
+    transform: translateX(-100%);
+  }
+
+  76%{
+    transform: translateX(10%);
+  }
+
+  100%{
+    transform: translate(0);
+  }
+}
+@keyframes moveIntoLeft {
+  0%{
+    transform: translateX(100%);
+  }
+
+  76%{
+    transform: translateX(-10%);
+  }
+
+  100%{
+    transform: translate(0);
+  }
 }
