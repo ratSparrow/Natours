@@ -131,7 +131,7 @@ body{
   padding: 15px 40px;
   display: inline-block;
   border-radius: 100px;
-  transition: all 0.2s;
+  transition: all .4s;
   position: relative;
 }
 
@@ -160,7 +160,7 @@ body{
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all 0.4s;
+  transition: all 1s;
 }
 
 .btn-white::after{
